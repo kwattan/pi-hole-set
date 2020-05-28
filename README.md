@@ -2,11 +2,21 @@
 collection Pi Hole SET
 
 
+pihole5-list-tool
+https://github.com/jessedp/pihole5-list-tool
 ```
-#piholeparser
+sudo pip3 install pihole5-list-tool --upgrade
+sudo pihole5-list-tool
+```
+
+piholeparser
+https://github.com/deathbybandaid/piholeparser
+```
 https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/CombinedBlacklists/CombinedBlackLists.txt
+```
 
-
+BIG LIST
+```
 https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browserFirebog | Non-crossed lists
 
